@@ -64,7 +64,7 @@ def generate_front_matter(config, model, output_dir):
     print("Generating front matter...")
     
     # Title Page
-    prompt = f"Generate the text for a standard book title page. Title: '{config['book_title']}', Subtitle: '{config['subtitle']}', Author: '{config['author_name']}'."
+    prompt = f"Write only the text content for a standard book title page. Title: '{config['book_title']}', Subtitle: '{config['subtitle']}', Author: '{config['author_name']}'. Do not include any commentary, options, or explanations. Provide only the formatted title page content."
     content = generate_content(prompt, model)
     if content:
         with open(os.path.join(output_dir, '00_title_page.md'), 'w', encoding='utf-8') as f:
@@ -72,14 +72,14 @@ def generate_front_matter(config, model, output_dir):
 
     # Copyright Page
     current_year = time.strftime("%Y")
-    prompt = f"Generate a standard copyright page for a book. Author: '{config['author_name']}', Year: '{current_year}'. Include a generic 'All rights reserved' clause."
+    prompt = f"Write only the text content for a standard copyright page for a book. Author: '{config['author_name']}', Year: '{current_year}'. Include a generic 'All rights reserved' clause. Do not include any commentary or explanations. Provide only the copyright page content."
     content = generate_content(prompt, model)
     if content:
         with open(os.path.join(output_dir, '01_copyright.md'), 'w', encoding='utf-8') as f:
             f.write(content)
 
     # Dedication Page
-    prompt = f"Generate a heartfelt dedication for a book in the '{config['genre']}' genre with a '{config['tone']}' tone."
+    prompt = f"Write only the text content for a heartfelt dedication for a book in the '{config['genre']}' genre with a '{config['tone']}' tone. Do not include any commentary or explanations. Provide only the dedication content."
     content = generate_content(prompt, model)
     if content:
         with open(os.path.join(output_dir, '02_dedication.md'), 'w', encoding='utf-8') as f:
@@ -115,8 +115,11 @@ def generate_chapters(config, chapters, model, output_dir):
         - Ensure a logical flow from the previous chapter summary.
         - Conclude the chapter in a way that sets up the next one.
         - IMPORTANT: Do NOT include the chapter title (like 'Chapter 1: ...') in your output. Only provide the chapter's body text.
+        - Do NOT include any meta-commentary, AI thinking, or phrases like "Of course", "Here are options", or "I'll provide".
+        - Write directly as the author would, with no AI assistant commentary or explanations.
+        - Start immediately with the chapter content, no preamble or setup text.
         
-        Begin writing now.
+        Begin writing the chapter content now.
         """
         
         content = generate_content(prompt, model)
@@ -138,13 +141,32 @@ def generate_back_matter(config, model, output_dir, final_chapter_number):
     """Generates the 'About the Author' section."""
     print("Generating back matter...")
     
-    # About the Author
-    prompt = f"Write an 'About the Author' section for {config['author_name']}. Invent a plausible professional background related to the book's topic of '{config['genre']}'. The tone should be professional yet approachable. Aim for about 150 words."
-    content = generate_content(prompt, model)
-    if content:
-        filename = f"{final_chapter_number + 3:02d}_about_the_author.md"
-        with open(os.path.join(output_dir, filename), 'w', encoding='utf-8') as f:
-            f.write(content)
+    # About the Author - Use specific biography for Elie Schulman
+    elie_bio = """# About the Author: Elie Schulman
+
+A Note from Elie Schulman: The words within this book, like all human expressions, are not claimed to be "true" in any absolute or immutable sense. They represent a perspective, a synthesis of observations, and a framework for understanding, offered with the hope that they spark your own insights and questions.
+
+Elie Schulman is a writer and explorer of human consciousness and emerging technologies, dedicated to understanding how we better articulate our desires in an ever-changing world. His lifelong fascination with language and words has been a constant thread, weaving through diverse experiences that shaped his unique perspective.
+
+In April 2024, Elie had his first significant interaction with ChatGPT. The experience was immediate and profound, an uncanny sensation of "looking in the mirror" – a reflection not just of synthesized knowledge, but of the very structure of human thought and communication. This moment solidified an intuition that AI would fundamentally shift our understanding of ourselves.
+
+Elie's journey through language and communication includes:
+
+- Years of rigorous Talmud study, delving into the nuanced interpretations and precise articulations of ancient texts.
+- Years of practicing law, where every word, every phrase, and every question held immense consequence in shaping outcomes.
+- Decades of consistent journaling, a private practice of self-prompting and continuous refinement of thought.
+- Decades of sitting practice of meditation, cultivating deep awareness of internal states and the subtle interplay of mind and experience.
+- Decades immersed in interpersonal process groups, honing the delicate art of expressing needs, hearing others, and navigating complex human dynamics.
+
+These rich experiences fueled an immediate realization upon encountering advanced AI: humanity was on the cusp of at least two profound awakenings. The first, concerning work and economics, signaling a redefinition of labor, value, and societal structures. The second, and perhaps more significantly, relating to human value and spirituality, prompting a deeper inquiry into what truly defines us when machines can mimic so much of our intellect.
+
+Driven by the belief that clear and intentional communication is the bedrock of all progress, Elie wrote "Prompting: Humans Learning How to Ask For What They Want" to empower individuals and organizations to navigate the complexities of the AI era with confidence and precision. His work focuses on demystifying complex concepts and providing practical, actionable insights that can be applied in both professional and personal contexts.
+
+When not writing or researching, Elie enjoys spending time with his family, skiing and tennis."""
+    
+    filename = f"{final_chapter_number + 3:02d}_about_the_author.md"
+    with open(os.path.join(output_dir, filename), 'w', encoding='utf-8') as f:
+        f.write(elie_bio)
             
     print("Back matter generated.")
 

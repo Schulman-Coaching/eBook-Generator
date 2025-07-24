@@ -1,128 +1,83 @@
-In the last chapter, we confronted the "Mind-to-Reality Gap"—that vast, often frustrating space between a perfectly formed idea in our heads and its tangible manifestation in the world. For millennia, this gap has been the central challenge for every artist, inventor, leader, and builder. We framed this as the problem that modern AI prompting seeks to solve. But in our rush to embrace this new technological solution, we risk overlooking a profound truth: we are not novices in this endeavor. The act of bridging this gap, of asking, guiding, and specifying, is not a new skill we must learn from scratch. It is a fundamental, deeply ingrained human instinct.
+If the previous chapter taught us anything, it’s that prompting is not some futuristic jargon invented in a Silicon Valley lab. It is a deeply, fundamentally human act. The desire to ask, to specify, to request, and to see our internal vision made manifest in the external world is woven into the very fabric of our evolutionary history. From the first hominid who grunted and pointed at a piece of fruit, successfully *prompting* a companion to retrieve it, to the modern engineer typing complex instructions into a terminal, the underlying drive is the same: to bridge the gap between intent and outcome.
 
-Prompting is not native to silicon; it is native to us. We have been prompting each other, our environment, and ourselves since our species first developed complex language. The challenge today isn't to learn a foreign behavior, but to excavate, refine, and consciously apply our innate prompting instincts to a new, powerful, and uniquely literal collaborator: the AI. This chapter is an archaeological dig into our own minds. We will uncover the ancient, everyday ways we already prompt, recognizing the powerful tools we already possess. By understanding our own human element, we can become exponentially better at communicating with the artificial one.
+But *why* are we so good at this? And if we are, why does prompting an AI often feel so clumsy and frustrating?
 
-### The Toddler’s Toolkit: The Primal Power of "Why?"
+The answer lies in the remarkable, and often invisible, cognitive machinery we all possess. We don’t come into this world as blank slates. We arrive pre-loaded with a suite of powerful, innate instincts for prompting. These are the mental tools we’ve honed over millennia of social interaction, problem-solving, and survival. They operate so automatically that we rarely notice them, like breathing or blinking. To become master prompters in this new era, our first task is not to learn a foreign language of code, but to rediscover the native tongue of our own minds. We must turn our gaze inward and understand the human element that makes prompting possible in the first place.
 
-Our first and most persistent prompting tool is forged in childhood. It consists of a single, powerful word: "Why?"
+### The Theory of Mind: The Original API
 
-Consider the classic, exasperating, and brilliant exchange between a parent and a young child.
+Imagine you need to ask your manager for an extension on a major project deadline. How do you approach it? You probably don't just walk into their office and state, "I require a 48-hour extension." Instead, a complex, high-speed simulation runs in your head.
 
-"We need to go to the store now."
-"Why?"
-"Because we need to buy milk."
-"Why do we need milk?"
-"So you can have cereal for breakfast tomorrow."
-"Why am I having cereal?"
-"Because it's quick and you like it."
-"Why do I like it?"
+You might think: *Okay, it’s Monday morning, she’s just gotten back from a stressful budget meeting. Bad time. Let’s wait until after lunch. I’ll start by acknowledging the project's importance and highlighting the progress I’ve already made. I’ll frame the reason for the delay not as a failure, but as a commitment to quality—I’ve identified an unexpected complexity that needs to be addressed properly. I’ll present a clear, revised timeline, showing that I’ve already thought through the solution. This shows responsibility, not unpreparedness.*
 
-While this can test the patience of any adult, what is actually happening here is a masterclass in foundational prompting. The child is not being difficult for the sake of it; they are executing a sophisticated information-gathering protocol. Each "why" is a prompt designed to achieve several things at once:
+What you are doing in that moment is deploying one of humanity’s most profound cognitive superpowers: **Theory of Mind**. This is the ability to recognize that other beings have minds of their own, complete with their own beliefs, desires, intentions, and knowledge. It’s the understanding that their inner world is not identical to yours. When you strategize how to ask for that extension, you are building a mental model of your manager. You are treating her mind as an information-processing system that you need to provide with the right inputs to get the desired output (approval for the extension).
 
-1.  **Uncovering Context:** The child isn't just accepting the initial command ("go to the store"). They are seeking the deeper context, the underlying reason, the *intent* behind the request. They are trying to build a mental model of the situation. For an AI, providing this "why" is the difference between a generic output and a truly aligned one. Prompting an AI to "Write a marketing email" is the parent's initial command. Prompting it to "Write a marketing email to re-engage customers who haven't purchased in six months, because we want to remind them of our value and offer a small incentive to return" is providing the rich context the child instinctively seeks.
+In essence, Theory of Mind is our original, biological Application Programming Interface (API). An API in the tech world is a set of rules and protocols that allows different software applications to communicate with each other. Our brain's social API allows us to communicate effectively with other minds. We intuitively understand the "rules" for interacting with a frustrated boss versus an excited child, a skeptical client versus a supportive friend. We tailor the "data packet"—our words, tone, and body language—to interface successfully with their current mental state.
 
-2.  **Iterative Refinement:** The child’s line of questioning is not random; it’s a chain. Each answer becomes the basis for the next prompt. This is the very definition of iterative prompting. They are drilling down, layer by layer, from a high-level goal (going to the store) to specific details (the user's preference for cereal). This is precisely how we should approach a complex task with an AI. We start with a broad prompt, see the result, and then use that output to ask a more refined, more specific follow-up question.
+This is prompting at its most sophisticated. Every social request we make is a prompt sent to another person's cognitive system.
 
-3.  **Testing Boundaries and Assumptions:** By asking "why," the child is testing the logic and stability of the parent's reasoning. They are probing for weak points and unstated assumptions. Sometimes, this process reveals that the initial premise was flawed. Perhaps we don't *need* milk; maybe yogurt is an acceptable alternative. In the world of AI prompting, this is akin to asking the AI to "explain its reasoning" or to "consider alternative approaches." This "prompting for reflection" forces the model to check its own work and can often lead to better, more robust outcomes.
+*   **Asking a friend for help moving:** You don’t just list the heavy items. You might say, "Hey, I know you're busy, but I'd be eternally grateful if you could help me move this Saturday. I'll buy pizza and beer for everyone, and it shouldn't take more than a few hours." You’ve provided context (moving), acknowledged their state (busy), offered an incentive (pizza and beer), and set constraints (a few hours).
+*   **Convincing a partner to see a movie they might not like:** You might prompt them by saying, "I know action movies aren't usually your thing, but this one has an incredible director and the reviews say the story is surprisingly emotional. Let's give it a try?" You are acknowledging their known preferences (a constraint), providing new data (good director, emotional story), and suggesting a low-risk experiment ("let's give it a try").
 
-The toddler's relentless "why" is the raw, unpolished version of a perfect prompting strategy. It’s driven by pure curiosity and a desire to understand the world fully before acting within it. As we grew up, many of us were taught to suppress this instinct in favor of quiet compliance. To become expert prompters, we must reconnect with our inner toddler and rediscover the power of asking not just "what," but "why."
+This innate skill is both a blessing and a curse when we turn to artificial intelligence. We instinctively try to use our Theory of Mind on a Large Language Model (LLM). We talk to it, plead with it, and try to intuit its "mood." This is why providing a persona in a prompt, like "You are a witty British historian," can be so effective. We are leveraging our natural ability to interact with a specific "mind," even a simulated one. We know how a witty British historian might sound, and that gives us a framework for the interaction.
 
-### The Socratic Prompt: Guiding Towards Discovery
+The pitfall, however, is when we forget that the AI does *not* have a mind. It has no beliefs, no desires, no true understanding. It is a complex pattern-matching system. When it fails to "get" our request, we can become frustrated because our finely tuned social API has returned an error. We feel as though it is being deliberately obtuse, when in reality, our prompt was simply insufficient for its non-human, literal-minded system. Understanding this distinction—that we are built to interact with minds, but are now interacting with complex algorithms—is the first crucial step to translating our innate skills into this new domain.
 
-As we move from childhood to the foundations of Western thought, we find a more structured and sophisticated form of prompting: the Socratic method. Socrates, the ancient Greek philosopher, was a master prompter. His goal was not to simply give answers, but to use a carefully structured series of questions to guide his conversation partners toward discovering the answers themselves. He wasn't programming them with information; he was prompting them to run their own internal logic engine.
+### Curiosity and Hypothesis Testing: The Engine of Prompting
 
-Imagine a mentor working with a junior analyst who has just presented a flawed business proposal.
+Watch a young child for any length of time, and you will witness the engine of prompting in its purest form. They are relentless hypothesis-testing machines.
 
-**The Ineffective (Non-Socratic) Approach:**
-"This is wrong. The market size is overestimated, and your cost analysis is missing key variables. Go back and fix it."
-This is a command. It delivers a conclusion but teaches nothing about the process. It's a prompt that asks for a specific revision without improving the underlying model of the analyst.
+"What happens if I push this?" (Prompt) -> The block tower falls. (Output)
+"Why is the sky blue?" (Prompt) -> An adult provides an explanation. (Output)
+"Can the dog eat my broccoli?" (Prompt) -> The dog either eats it or doesn't, and a parent likely intervenes. (Output, with consequences)
 
-**The Socratic Prompting Approach:**
-"Thank you for this. Can you walk me through how you arrived at the market size figure?"
-*(The analyst explains their methodology.)*
-"Interesting. You've included enterprise clients. Given our product's current features, which segment of that market do you think we can realistically capture in the first year?"
-*(The analyst reconsiders and revises the number downwards.)*
-"Great. Now, looking at your cost analysis, what are some external factors that could influence our production costs over the next six months?"
-*(The analyst thinks and starts to list potential supply chain issues or raw material price hikes—variables they hadn't considered.)*
+This ceaseless cycle of "what if?" is driven by curiosity, the cognitive engine that fuels all learning and discovery. Every question is a prompt. Every action is an experiment. We are born scientists, constantly formulating micro-hypotheses about the world and testing them to see the results. *If I do X, then Y will happen.* This is the fundamental structure of a prompt.
 
-This is prompting at its most elegant. The mentor is not providing the answers but is providing a series of prompts that force the analyst to examine their own assumptions, identify gaps in their reasoning, and arrive at a more robust conclusion on their own.
+This instinct doesn't fade as we age; it just becomes more sophisticated and automatic. Consider learning a new piece of software at work.
 
-We can apply this directly to our interactions with AI, especially with advanced reasoning models. Instead of asking for a final answer, we can use the Socratic method to guide the AI's "thought process."
+1.  **Initial State:** You have a goal—for example, to create a pivot table in a spreadsheet. You don't know how.
+2.  **Hypothesis/Prompt 1:** You form a hypothesis: "The function is probably in one of these top menus. The 'Data' menu sounds promising." You click on it. This click is a prompt.
+3.  **Output 1:** You see a "PivotTable" button. Your hypothesis was correct.
+4.  **Hypothesis/Prompt 2:** You click the button, and a complex dialog box appears. New goal: fill out this box correctly. You form a new hypothesis: "My sales figures should be the 'Values,' and the 'Product Category' should be the 'Rows.'" You drag and drop these elements. This is another, more complex prompt.
+5.  **Output 2:** The table appears, but it's not quite right. It's showing the count of sales, not the sum.
+6.  **Iteration/Prompt 3:** You have new information. Your prompt needs refinement. You hypothesize: "There must be a setting to change 'Count' to 'Sum.'" You scan the dialog box, find a dropdown menu that says "Count of Sales," click it, and change it to "Sum." This is an iterative prompt.
+7.  **Final Output:** The pivot table now correctly displays the total sales by category. Your goal is achieved.
 
-**Standard Prompt:** "Write a plan to launch a new eco-friendly coffee brand."
+This loop—**Prompt -> Output -> Analysis -> Refined Prompt**—is the core of both human learning and effective AI interaction. We do it so naturally we don’t even notice. We are constantly "prompting" the systems around us, whether it's a vending machine (Hypothesis: If I press B4, a bag of pretzels will come out), a search engine, or a new kitchen appliance.
 
-**Socratic Prompt:**
-1.  "Let's develop a plan to launch a new eco-friendly coffee brand. First, identify the top three target audience personas for such a brand. For each persona, describe their core values and daily habits."
-2.  "Based on those personas, what would be the most compelling unique selling proposition (USP)? Brainstorm five potential USPs and then select the strongest one, explaining your reasoning."
-3.  "Now, considering that USP and the target personas, propose three key marketing channels to reach them. Justify why each channel is a good fit."
-4.  "Finally, outline a three-month launch timeline incorporating these elements, from pre-launch buzz to post-launch customer engagement."
+When we engage with an AI, we are tapping directly into this ancient learning process. The frustration many people experience comes from giving up after the first prompt. They type "Write a marketing email," get a generic output, and conclude, "This tool is useless." They have forgotten the most crucial part of their own innate learning process: analysis and iteration. A skilled prompter, like a curious child or a determined employee learning new software, sees the first output not as a final failure, but simply as data. They analyze it and ask, "Okay, that wasn't right. *Why* wasn't it right? It was too formal. The call to action was weak." Then they refine the prompt: "Write a friendly and enthusiastic marketing email announcing our new product. Include a clear call to action to 'Shop Now' with a 15% discount code." They embrace the loop.
 
-This chained, Socratic approach does more than just ask for a plan. It forces the AI to build the plan logically, piece by piece, showing its work at each stage. This makes the final output more transparent, better reasoned, and easier for us to edit and refine. It mirrors the way a great teacher or mentor guides a student—not by dictating, but by prompting discovery.
+### Storytelling and World-Building: The Art of Context
 
-### The Manager's Mandate: Prompting for Action and Delegation
+Before we had written language, we had stories. The ability to weave a narrative—to establish a setting, introduce characters, and describe a sequence of events—is one of our most ancient and powerful communication tools. A story is, in its most functional form, an elaborate prompt designed to elicit a specific cognitive and emotional response in the listener. It’s how we transfer wisdom, share experiences, and build a shared understanding of the world.
 
-Every act of effective delegation in a professional setting is an exercise in high-stakes prompting. A manager’s primary role is to bridge the "Mind-to-Reality Gap" through their team. Their internal vision for a project's success must be translated into clear, actionable instructions. A poorly phrased delegation is a bad prompt, and it leads to wasted time, incorrect results, and frustrated team members.
+When we tell a friend about a terrible day at work, we don't just state facts: "I had a meeting at 10. My boss was mad. The project is late." That's a log file. Instead, we build a world. We tell a story:
 
-Consider a manager who needs a report.
+"You won't believe the day I had. So I walk into the Monday morning meeting, and you could just *feel* the tension in the room. Franklin is sitting at the head of the table with this grim look on his face, you know the one. He kicks things off by pulling up the quarterly numbers, and they're not great. When he gets to our project, he doesn't even use my name, he just says, 'And the marketing campaign is still lagging behind schedule...' The way he said it just made my stomach drop."
 
-**The Bad Prompt (Poor Delegation):**
-"Hey, can you get me that sales data?"
-This prompt is a recipe for disaster. What data? For which period? In what format? For what purpose? The employee is left to guess, almost guaranteeing the result will fail to meet the manager's unspoken needs. This is the equivalent of typing "sales data" into an AI and hoping for the best.
+This narrative is a rich, context-laden prompt. It provides the listener with a character (the grim boss), a setting (a tense meeting), a sequence of events, and your own emotional state. The "prompt" isn't just asking for sympathy; it's designed to make the listener *understand* the situation on a deeper level. And it works. The listener can now give much better advice and support than if they'd only received the log file.
 
-**The Good Prompt (Effective Delegation):**
-"I need a report on our Q3 sales performance for the North American region, specifically for our 'Pro' subscription tier. The goal is to present this to the executive team next Friday, so they can decide on the Q4 marketing budget. Please compare this quarter's numbers to Q3 of last year to show year-over-year growth. I need a one-page summary with key takeaways and charts for new customer acquisition and churn rate. The raw data should be in an appendix. Let me know if you have any questions by end-of-day."
+This innate human instinct for storytelling is a secret weapon in AI prompting. A simple, context-free prompt is like that dull log file. A well-crafted prompt is like a mini-story; it builds a world for the AI to inhabit.
 
-Let's break this down into the components of an expert prompt, whether for a human employee or an AI assistant:
+Consider the difference:
 
-*   **Task/Objective:** "A report on Q3 sales performance for the 'Pro' subscription tier in North America." (Clear and specific)
-*   **Context/Intent:** "To present this to the executive team... so they can decide on the Q4 marketing budget." (The 'why' that informs the output)
-*   **Constraints & Scope:** "North American region," "compare to Q3 of last year," "one-page summary," "appendix for raw data." (Setting clear boundaries)
-*   **Persona/Audience:** "The executive team." (This tells the prompter—human or AI—about the required tone: formal, concise, data-driven)
-*   **Format:** "One-page summary with key takeaways and charts." (Defining the structure of the desired reality)
-*   **Implicit Iteration:** "Let me know if you have any questions." (An invitation for a feedback loop)
+*   **Weak Prompt:** "Write about the benefits of remote work."
+*   **Strong, Story-Driven Prompt:** "You are a management consultant specializing in organizational psychology. You are writing a section for a report aimed at a skeptical CEO of a traditional, 100-year-old manufacturing company. Your goal is to persuasively argue for the benefits of a hybrid work model, focusing specifically on employee retention, productivity, and innovation. Use a professional but approachable tone, and include a brief, anonymized case study of a similar company that made the switch successfully."
 
-This is the anatomy of a perfect prompt. It's not just a request; it's a carefully constructed set of instructions that provides all the necessary information for the recipient to succeed. Many professionals who struggle with prompting AI are, in fact, simply unpracticed in the art of clear, effective delegation. The skills are identical. Learning to prompt an AI effectively will, as a side effect, make you a better manager, leader, and collaborator. You learn to clarify your own thoughts before you ask, which is the foundation of all effective communication.
+The second prompt gives the AI everything it needs. It provides a **persona** ("management consultant"), an **audience** ("skeptical CEO"), a specific **goal** ("persuasively argue"), a detailed **context** ("traditional company," "hybrid model"), a desired **tone** ("professional but approachable"), and even a required **format element** ("anonymized case study"). You have told the AI a story about what you need, and in doing so, you have created the conditions for it to give you a truly useful and targeted response. You have prompted it the way humans are naturally built to communicate: through narrative.
 
-### The Artist's Brief: Prompting for Creation
+### When Our Instincts Lead Us Astray
 
-So far, our examples have focused on logic and action. But what about creativity, ambiguity, and aesthetics? This, too, is a domain where we have been prompting for centuries. Every creative commission is a prompt. When a client asks a graphic designer for a logo, when a director gives a note to an actor, or when a poet is given a theme for a competition, they are receiving a prompt designed to spark a creative process.
+For all their power, our innate prompting instincts are calibrated for a world of human interaction. When we apply them wholesale to non-human intelligence, we can run into predictable problems. The key to mastery is being aware of these cognitive traps.
 
-Creative prompts are a delicate art. They must be specific enough to guide the creator toward the desired "Mind-to-Reality" outcome, yet open enough to allow for interpretation, surprise, and genius.
+First is the trap of **ambiguity and assumption**. Human conversation is wonderfully efficient because it’s filled with shortcuts and shared context. If you ask a colleague, "Can you send me that thing from the meeting?" they might know exactly what you mean: the Q3 sales presentation from the 10 a.m. sync. You both share the context. An AI has no access to your shared reality. The prompt "Write something interesting about Jupiter" is hopelessly vague. Interesting to whom? A physicist? An astrologer? A third-grader? Our human instinct is to assume the other party will fill in the blanks using common sense. An AI has no common sense; it only has the data you give it.
 
-Imagine a client trying to describe a logo they want for their new wellness app.
+Second is our tendency toward **anthropomorphism**. As we discussed, our Theory of Mind pushes us to treat the AI as if it has intentions. This can lead to flawed prompting strategies. We might say "Please try harder" or "Don't be lazy," as if we're coaching a person. This doesn't help the AI. It needs more specific instructions, not a motivational speech. Getting angry at an AI for being "stubborn" is like yelling at a calculator for not understanding a poem. It's a misapplication of a social instinct to a mathematical system.
 
-**The Vague (Bad) Prompt:**
-"I want something that looks nice and modern."
-This prompt provides almost no useful information. "Nice" and "modern" are subjective and can be interpreted in a thousand ways. The designer is forced to guess, leading to endless revisions.
+Finally, we fall victim to the **Curse of Knowledge**. This is a cognitive bias where we find it difficult to imagine what it's like for someone to *not* know something that we know. We live and breathe the context of our own lives and work. When we ask an AI to "draft an email to the team about the project update," we forget all the crucial information we hold in our heads: Who is on the team? What is their current level of understanding? What was the *previous* update? What is the desired tone—urgent, celebratory, routine? To the AI, we have provided a locked box with no key. To ourselves, the request seems perfectly obvious. Overcoming the Curse of Knowledge means learning to explicitly state the context we take for granted.
 
-**The Evocative (Good) Prompt:**
-"We're creating a logo for 'Serenity,' a meditation and wellness app. Our target audience is busy urban professionals aged 25-40. The feeling we want to evoke is **calm, clarity, and a connection to nature within a modern life**. Think of the feeling of a quiet, mossy clearing found in the middle of a bustling city. For colors, we're drawn to **soft earth tones—moss green, slate grey, and a warm, off-white**. The typography should be **clean, minimalist, and sans-serif**, but not cold or robotic. Avoid sharp angles; we prefer **soft curves and organic shapes**."
+Our natural abilities for prompting are the foundation, not the complete structure. They give us an incredible head start, a built-in intuition for how to ask and receive. But to build on that foundation, we need to add a layer of conscious, deliberate strategy. We need to learn how to translate our human-to-human API for these new, powerful, and literal-minded tools.
 
-This is a masterful creative prompt. It doesn't dictate the exact design, but it builds a rich "scaffolding" of concepts for the designer to work within:
+We have now looked inward, examining the cognitive instincts that make us natural prompters. We understand that our minds are wired to model other minds, to test hypotheses, and to communicate through narrative. We also see how these instincts can sometimes fail us in this new technological landscape.
 
-*   **Emotional Goal:** "calm, clarity, connection to nature"
-*   **Metaphor/Analogy:** "a quiet, mossy clearing in a bustling city"
-*   **Constraints:** "soft earth tones," "sans-serif," "soft curves"
-*   **Negative Constraints:** "avoid sharp angles," "not cold or robotic"
-
-This is precisely how we must learn to prompt generative AI for images, music, or creative writing. Instead of just "a picture of a forest," a better prompt would be, "A photorealistic image of a sun-dappled forest floor in the early morning. Mist is rising off the damp earth. The style should be reminiscent of Ansel Adams, with high contrast and deep blacks, capturing a feeling of ancient solitude."
-
-We are providing the AI not just with objects, but with mood, style, artistic influence, and emotional intent. We are translating the feeling in our mind into a vocabulary the creator—in this case, the AI—can interpret.
-
-### From Instinct to Intention
-
-The toddler's "why," the Socratic dialogue, the manager's delegation, and the artist's brief—these are not isolated tricks. They are different facets of the same fundamental human skill: the ability to use language to shape reality. They show us that effective prompting is a blend of clarity and curiosity, of providing specific constraints while also conveying the deeper intent.
-
-Across all these examples, a clear pattern emerges. A good prompt, whether directed at a person or an AI, contains several key elements:
-*   **Intent:** The *why* behind the request.
-*   **Context:** The background information needed to make sense of the request.
-*   **Specificity:** The clear *what* of the task.
-*   **Constraints:** The boundaries and rules that define the solution space.
-*   **Persona:** The perspective the prompter should adopt.
-*   **Format:** The shape of the final output.
-
-The good news is that you use these elements every day. You use them when you ask your partner to pick up groceries ("Get the organic milk, not the regular, because my stomach is sensitive"), when you give directions to a tourist ("Walk two blocks and turn left at the big post office; you can't miss it"), and when you tell a friend about a book you loved ("It's a thriller, but it's really about the psychology of the main character, written in this really stark, minimalist style").
-
-The AI is the new factor in the equation, but the human element is ancient. The skill set is already within you. The journey to becoming an expert prompter is not about learning something alien; it's about becoming more conscious and deliberate in how you already communicate. It’s about taking these innate instincts and turning them into an intentional, repeatable methodology.
-
-Now that we have unearthed these powerful prompting instincts from these distinct roles and situations, it's time to see how they operate in the background of our most common interactions. In the next chapter, we will move beyond these specific archetypes and explore how the principles of prompting are woven into the very fabric of our daily lives, often in ways we never even notice. We will take prompting out of the realm of the specialist and place it firmly in the hands of the everyday communicator.
+Now, it is time to look outward. Before we dive into the specific techniques for crafting the perfect AI prompt, we must first recognize how ubiquitous prompting is in our world already. How do these same instincts play out in our professional and personal lives, far away from any keyboard? By seeing the patterns of asking and receiving in our daily interactions—with our colleagues, our families, and even ourselves—we can begin to hone a universal skill that transcends any single technology. We can learn to ask for what we want, and get it, in every facet of our lives.
