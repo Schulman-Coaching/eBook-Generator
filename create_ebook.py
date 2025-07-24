@@ -9,7 +9,7 @@ import google.generativeai as genai
 def load_config(config_path='config.json'):
     """Loads configuration from a JSON file."""
     print("Loading configuration...")
-    with open(config_path, 'r') as f:
+    with open(config_path, 'r', encoding='utf-8') as f:
         return json.load(f)
 
 def setup_gemini(api_key):
@@ -17,13 +17,13 @@ def setup_gemini(api_key):
     print("Initializing Gemini API...")
     genai.configure(api_key=api_key)
     # Using a model optimized for longer, creative text generation
-    return genai.GenerativeModel('gemini-1.5-flash-latest')
+    return genai.GenerativeModel('gemini-2.5-pro')
 
 def parse_outline(filepath):
     """Parses the outline file to extract chapter titles."""
     print(f"Parsing outline file: {filepath}...")
     try:
-        with open(filepath, 'r') as f:
+        with open(filepath, 'r', encoding='utf-8') as f:
             content = f.read()
         # Assumes chapters are H2 headings (## Chapter Title)
         chapters = re.findall(r'^##\s*(.*)', content, re.MULTILINE)
@@ -67,7 +67,7 @@ def generate_front_matter(config, model, output_dir):
     prompt = f"Generate the text for a standard book title page. Title: '{config['book_title']}', Subtitle: '{config['subtitle']}', Author: '{config['author_name']}'."
     content = generate_content(prompt, model)
     if content:
-        with open(os.path.join(output_dir, '00_title_page.md'), 'w') as f:
+        with open(os.path.join(output_dir, '00_title_page.md'), 'w', encoding='utf-8') as f:
             f.write(content)
 
     # Copyright Page
@@ -75,14 +75,14 @@ def generate_front_matter(config, model, output_dir):
     prompt = f"Generate a standard copyright page for a book. Author: '{config['author_name']}', Year: '{current_year}'. Include a generic 'All rights reserved' clause."
     content = generate_content(prompt, model)
     if content:
-        with open(os.path.join(output_dir, '01_copyright.md'), 'w') as f:
+        with open(os.path.join(output_dir, '01_copyright.md'), 'w', encoding='utf-8') as f:
             f.write(content)
 
     # Dedication Page
     prompt = f"Generate a heartfelt dedication for a book in the '{config['genre']}' genre with a '{config['tone']}' tone."
     content = generate_content(prompt, model)
     if content:
-        with open(os.path.join(output_dir, '02_dedication.md'), 'w') as f:
+        with open(os.path.join(output_dir, '02_dedication.md'), 'w', encoding='utf-8') as f:
             f.write(content)
             
     print("Front matter generated.")
@@ -122,7 +122,7 @@ def generate_chapters(config, chapters, model, output_dir):
         content = generate_content(prompt, model)
         if content:
             filename = f"{i+3:02d}_chapter_{chapter_number}.md"
-            with open(os.path.join(output_dir, filename), 'w') as f:
+            with open(os.path.join(output_dir, filename), 'w', encoding='utf-8') as f:
                 f.write(content)
             
             # Generate a summary of the chapter we just wrote for the next iteration
@@ -143,7 +143,7 @@ def generate_back_matter(config, model, output_dir, final_chapter_number):
     content = generate_content(prompt, model)
     if content:
         filename = f"{final_chapter_number + 3:02d}_about_the_author.md"
-        with open(os.path.join(output_dir, filename), 'w') as f:
+        with open(os.path.join(output_dir, filename), 'w', encoding='utf-8') as f:
             f.write(content)
             
     print("Back matter generated.")
