@@ -1,0 +1,11 @@
+{
+    "gemini_api_key": "YOUR_GEMINI_API_KEY_HERE",
+    "book_title": "The Art of Effective Communication",
+    "subtitle": "A Practical Guide to Better Conversations",
+    "author_name": "Your Name Here",
+    "genre": "Self-Help/Communication",
+    "target_audience": "Professionals and individuals seeking to improve their communication skills",
+    "tone": "Practical, encouraging, and accessible with real-world examples",
+    "word_count_per_chapter": 2000,
+    "outline_file": "examples/sample_outline.md"
+}

@@ -1,0 +1,6 @@
+# Core dependencies for eBook Generator
+google-generativeai>=0.3.0
+
+# Optional dependencies for enhanced functionality
+# pandoc-python>=1.0.0  # For programmatic Pandoc integration (optional)
+# markdown>=3.4.0       # For enhanced markdown processing (optional)
